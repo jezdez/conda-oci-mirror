@@ -32,6 +32,9 @@ dependencies = [
 
 dynamic = ["version"]
 
+[project.entry-points.conda]
+conda-oci-mirror = "conda_oci_mirror.plugin"
+
 [project.scripts]
 conda-oci = "conda_oci_mirror.cli:main"
 
